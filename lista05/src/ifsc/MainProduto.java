@@ -18,17 +18,18 @@ public class MainProduto {
 		saia.setPreco(59.99);
 		saia.setCodBarra(78965412l);
 
+
 		Produto jaqueta = new Produto();
 		jaqueta.setNome("jaqueta de couro");
 		jaqueta.setFornecedor("Versat");
 		jaqueta.setPreco(159.99);
 		jaqueta.setCodBarra(74412365l);
-
+		
 		ArrayList<Produto> produtos = new ArrayList<Produto>();
-			produtos.add(camisa);
-			produtos.add(saia);
-			produtos.add(jaqueta);
-			
+		produtos.add(camisa);
+		produtos.add(saia);
+		produtos.add(jaqueta);
+
 		for (Produto produto : produtos) {
 			System.out.println(produto.getNome());
 			System.out.println(produto.getFornecedor());
